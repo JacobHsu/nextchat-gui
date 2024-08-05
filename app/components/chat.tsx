@@ -1270,7 +1270,7 @@ function _Chat() {
 
   return (
     <div className={styles.chat} key={session.id}>
-      <div className="window-header" data-tauri-drag-region>
+      {/* <div className="window-header" data-tauri-drag-region>
         {isMobileScreen && (
           <div className="window-actions">
             <div className={"window-action-button"}>
@@ -1335,7 +1335,7 @@ function _Chat() {
           showModal={showPromptModal}
           setShowModal={setShowPromptModal}
         />
-      </div>
+      </div> */}
 
       <div
         className={styles["chat-body"]}
