@@ -13,3 +13,9 @@ chat.tsx
 ```js
  <div className="window-header"
 ```
+
+sidebar.tsx
+
+```js
+<div className={styles["sidebar-header-bar"]}>
+```
