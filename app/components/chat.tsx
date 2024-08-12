@@ -1533,7 +1533,7 @@ function _Chat() {
       <div className={styles["chat-input-panel"]}>
         <PromptHints prompts={promptHints} onPromptSelect={onPromptSelect} />
 
-        <ChatActions
+        {/* <ChatActions
           uploadImage={uploadImage}
           setAttachImages={setAttachImages}
           setUploading={setUploading}
@@ -1552,7 +1552,7 @@ function _Chat() {
             setUserInput("/");
             onSearch("");
           }}
-        />
+        /> */}
         <label
           className={`${styles["chat-input-panel-inner"]} ${
             attachImages.length != 0

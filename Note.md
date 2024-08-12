@@ -14,6 +14,11 @@ chat.tsx
  <div className="window-header"
 ```
 
+```js
+<div className={styles["chat-input-panel"]}>
+  <ChatActions
+```
+
 sidebar.tsx
 
 ```js
