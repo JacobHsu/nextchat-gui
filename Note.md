@@ -19,3 +19,7 @@ sidebar.tsx
 ```js
 <div className={styles["sidebar-header-bar"]}>
 ```
+
+## NPM 
+
+react-markdown
