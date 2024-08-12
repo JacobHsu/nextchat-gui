@@ -15,6 +15,9 @@ chat.tsx
 ```
 
 ```js
+<div className={styles["chat-message-avatar"]}>
+  {isUser ? ( <Avatar avatar={config.avatar} />
+
 <div className={styles["chat-input-panel"]}>
   <ChatActions
 ```

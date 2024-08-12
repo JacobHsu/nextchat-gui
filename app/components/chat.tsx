@@ -1403,7 +1403,7 @@ function _Chat() {
                         ></IconButton>
                       </div>
                       {isUser ? (
-                        <Avatar avatar={config.avatar} />
+                        <></> // <Avatar avatar={config.avatar} />
                       ) : (
                         <>
                           {["system"].includes(message.role) ? (
@@ -1463,11 +1463,11 @@ function _Chat() {
                       </div>
                     )}
                   </div>
-                  {showTyping && (
+                  {/* {showTyping && (
                     <div className={styles["chat-message-status"]}>
                       {Locale.Chat.Typing}
                     </div>
-                  )}
+                  )} */}
                   <div className={styles["chat-message-item"]}>
                     <Markdown
                       content={getMessageTextContent(message)}
