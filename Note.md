@@ -14,6 +14,11 @@ chat.tsx
  <div className="window-header"
 ```
 
+BOT_HELLO
+```js
+  context.push(copiedHello);
+```
+
 ```js
 <div className={styles["chat-message-avatar"]}>
   {isUser ? ( <Avatar avatar={config.avatar} />
