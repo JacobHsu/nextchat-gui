@@ -1468,7 +1468,7 @@ function _Chat() {
                       {Locale.Chat.Typing}
                     </div>
                   )} */}
-                  <div className={styles["chat-message-item"]}>
+                  {message.preview !== true && <div className={styles["chat-message-item"]}>
                     <Markdown
                       content={getMessageTextContent(message)}
                       loading={
@@ -1515,13 +1515,13 @@ function _Chat() {
                         })}
                       </div>
                     )}
-                  </div>
+                  </div>}
 
-                  <div className={styles["chat-message-action-date"]}>
+                  {message.preview !== true &&<div className={styles["chat-message-action-date"]}>
                     {isContext
                       ? Locale.Chat.IsContext
                       : message.date.toLocaleString()}
-                  </div>
+                  </div>}
                 </div>
               </div>
               {shouldShowClearContextDivider && <ClearContextDivider />}
