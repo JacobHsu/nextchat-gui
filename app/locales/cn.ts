@@ -81,6 +81,11 @@ const cn = {
     },
     IsContext: "预设提示词",
   },
+  Copied: {
+    Title: "个人笔记",
+    SubTitle: "已复制内容",
+    Copy: "個人筆記",
+  },
   Export: {
     Title: "分享聊天记录",
     Copy: "全部复制",

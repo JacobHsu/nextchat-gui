@@ -51,6 +51,10 @@ const Chat = dynamic(async () => (await import("./chat")).Chat, {
   loading: () => <Loading noLogo />,
 });
 
+const Copied = dynamic(async () => (await import("./copied")).Copied, {
+  loading: () => <Loading noLogo />,
+});
+
 const NewChat = dynamic(async () => (await import("./new-chat")).NewChat, {
   loading: () => <Loading noLogo />,
 });
@@ -175,6 +179,7 @@ function Screen() {
             <Route path={Path.Masks} element={<MaskPage />} />
             <Route path={Path.Chat} element={<Chat />} />
             <Route path={Path.Settings} element={<Settings />} />
+            <Route path={Path.Copied} element={<Copied />} />
           </Routes>
         </WindowContent>
       </>

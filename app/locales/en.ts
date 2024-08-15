@@ -83,6 +83,11 @@ const en: LocaleType = {
     },
     IsContext: "Contextual Prompt",
   },
+  Copied: {
+    Title: "Personal Notes",
+    SubTitle: "Copied Content",
+    Copy: "個人筆記",
+  },
   Export: {
     Title: "Export Messages",
     Copy: "Copy All",

@@ -82,6 +82,11 @@ const tw = {
     },
     IsContext: "預設提示詞",
   },
+  Copied: {
+    Title: "個人筆記",
+    SubTitle: "已複製內容",
+    Copy: "個人筆記",
+  },
   Export: {
     Title: "將聊天記錄匯出為 Markdown",
     Copy: "複製全部",

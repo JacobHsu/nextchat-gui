@@ -8,10 +8,12 @@ import GithubIcon from "../icons/github.svg";
 import ChatGptIcon from "../icons/chatgpt.svg";
 import AddIcon from "../icons/add.svg";
 import CloseIcon from "../icons/close.svg";
+import CopyIcon from "../icons/copy.svg";
 import DeleteIcon from "../icons/delete.svg";
 import MaskIcon from "../icons/mask.svg";
 import DragIcon from "../icons/drag.svg";
 import DiscoveryIcon from "../icons/discovery.svg";
+
 
 import Locale from "../locales";
 
@@ -296,6 +298,11 @@ export function SideBar(props: { className?: string }) {
             <div className={styles["sidebar-action"]}>
               <Link to={Path.Settings}>
                 <IconButton icon={<SettingsIcon />} shadow />
+              </Link>
+            </div>
+            <div className={styles["sidebar-action"]}>
+              <Link to={Path.Copied}>
+                <IconButton icon={<CopyIcon />} shadow />
               </Link>
             </div>
             {/* <div className={styles["sidebar-action"]}>
