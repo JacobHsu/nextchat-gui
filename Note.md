@@ -27,6 +27,29 @@ BOT_HELLO
   <ChatActions
 ```
 
+```js
+export function Chat() {
+    return <_Chat key={sessionIndex}></_Chat>;
+}
+
+function _Chat() {
+  const chatStore = useChatStore();
+  const session = chatStore.currentSession();
+
+  
+  useEffect(() => {
+    chatStore.updateCurrentSession((session) => {
+          session.messages.forEach((m) => {
+
+   // preview messages
+  const renderMessages = useMemo(() => {
+    [session.messages,]);
+
+  const messages = useMemo(() => {
+ }, [msgRenderIndex, renderMessages]);
+
+```
+
 sidebar.tsx
 
 ```js
@@ -35,4 +58,16 @@ sidebar.tsx
 
 ## NPM 
 
-react-markdown
+react-markdown  
+[nanoid](https://www.npmjs.com/package/nanoid)
+
+
+## store
+
+```js
+useChatStore = createPersistStore(
+
+  newSession(mask?: Mask) {
+  const session = createEmptySession();
+
+```
