@@ -32,6 +32,10 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 
 </div>
 
+## Note
+
+[Vercel 的使用说明](https://github.com/JacobHsu/nextchat-gui/blob/main/docs/vercel-cn.md)  如何更改环境变量
+
 ## Enterprise Edition
 
 Meeting Your Company's Privatization and Customization Deployment Requirements:
